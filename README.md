@@ -163,7 +163,7 @@ using namespace std;
 
     cout<<endl<<"Hasil : "<<endl;
     for(int i=0; i<banyakkata; i++) {
-        if(hasil_akhir[i==1)
+        if(hasil_akhir[i]==1)
         {
             cout<<i1<<". Found!\n";
         }
