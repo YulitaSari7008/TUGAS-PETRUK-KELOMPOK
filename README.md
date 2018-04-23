@@ -1,4 +1,5 @@
 #include<iostream>
+#include<cstring>
 using namespace std;
     int main (){
     cout<<"\t\tLet's play Findword Puzzle Mini Game\n\n";
@@ -43,7 +44,7 @@ using namespace std;
     for(int i=0; i<banyakkata; i++) {
         cout<<i+1<<". ";
         cin.getline(kata[i], 15);
-        panjang[i]=sizeof(kata[i]);   
+        panjang[i]=strlen(kata[i]);   
         }
     
     for(int m=0; m<banyakkata; m++) {
