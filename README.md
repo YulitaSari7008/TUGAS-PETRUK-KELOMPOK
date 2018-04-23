@@ -165,9 +165,9 @@ using namespace std;
     for(int i=0; i<banyakkata; i++) {
         if(hasil_akhir[i]==1)
         {
-            cout<<i1<<". Found!\n";
+            cout<<i+1<<". Found!\n";
         }
-        else cout<<i1<<". Not Found!\n";
+        else cout<<i+1<<". Not Found!\n";
     }
     return 0;
     }
