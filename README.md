@@ -106,8 +106,8 @@ using namespace std;
             for(int i=0; i<=(15-panjang_kata); i++) {
             diagonal=-1;
                 for(int j=i; j<=i+(panjang_kata-1); j++) {
-                    ++dgnl;
-                    if(*(*(X+j)+dn+dgnl) == kata[m][x]) ada[x] = 1;
+                    ++diagonal;
+                    if(*(*(X+j)+diag1+diagonal) == kata[m][x]) ada[x] = 1;
                     else ada[x] = 0;
                     x++;
                 }
@@ -134,8 +134,8 @@ using namespace std;
             for(int i=0; i<=(15-panjang_kata); i++) {
             diagonal=-1;
                 for(int j=i; j<=i+(panjang_kata-1); j++) {
-                    ++dgnl;
-                    if(*(*(X+j)+dr-dgnl) == kata[m][x]) ada[x] = 1;
+                    ++diagonal;
+                    if(*(*(X+j)+diag2-diagonal) == kata[m][x]) ada[x] = 1;
                     else ada[x] = 0;
                     x++;
                 }
