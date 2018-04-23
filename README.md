@@ -4,7 +4,7 @@ using namespace std;
     cout<<"\t\tLet's play Findword Puzzle Mini Game\n\n";
     
     //pendeklarasian baris matriks
-    char B1[] = {'s','w,'g','t','e','b','d','a','d','r','o','p','c','z','d'};
+    char B1[] = {'s','w','g','t','e','b','d','a','d','r','o','p','c','z','d'};
     char B2[] = {'q','m','u','n','u','i','h','a','l','b','k','t','x','z','e'};
     char B3[] = {'s','b','g','q','o','c','n','z','k','l','w','w','f','u','b'};
     char B4[] = {'d','d','q','u','e','e','n','t','h','e','q','u','i','c','k'};
@@ -26,7 +26,7 @@ using namespace std;
     //menampilkan matriks char
     for (int i=0;i<15;i++){
                             for(int j=0;j<15;j++){
-    cout<<*(*(X+i)+j<<"   ";
+    cout<<*(*(X+i)+j)<<"   ";
     }
     cout<<endl;
     }
