@@ -130,7 +130,7 @@ using namespace std;
             }
         }
 
-        for(int diag2 = 14 ; diag2 >= 0 ; diag--){
+        for(int diag2 = 14 ; diag2 >= 0 ; diag2--){
             for(int i=0; i<=(15-panjang_kata); i++) {
             diagonal=-1;
                 for(int j=i; j<=i+(panjang_kata-1); j++) {
@@ -152,6 +152,10 @@ using namespace std;
                         hasil_akhir[m]=1; 
                         goto next; 
                     }
+                }
+                hasil[m]=0;
+                x=0;
+                }
                 }
         next:
         x=0;
