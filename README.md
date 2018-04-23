@@ -39,6 +39,7 @@ using namespace std;
     int hasil[banyakkata], hasil_akhir[banyakkata], panjang[banyakkata] , diagonal;
     char kata[banyakkata][15];
     
+    cin.ignore();
     for(int i=0; i<banyakkata; i++) {
         cout<<i+1<<". ";
         cin.getline(kata[i], 15);
