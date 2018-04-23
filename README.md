@@ -33,12 +33,39 @@ using namespace std;
     }
     
     //LOGIC FUNGSI
-    ??
-    ??
-    ??
-    ??
+    int banyakkata;
+    cout<<"\nBerapa banyak kata yang akan anda cari? ";
+    cin>>banyakkata;
     
-    //MAIN BLOCK
+    int hasil[banyakkata], hasil_akhir[banyakkata], panjang[banyakkata] , diagonal;
+    char kata[banyakkata][15];
     
+    for(int i=0; i<banyakkata; i++) {
+        cout<<i+1<<". ";
+        cin.getline(kata[i], 15);
+        panjang[i]=sizeof(kata[i]);   
+        }
+    
+    for(int m=0; m<banyakkata; m++) {
+        hasil[m]=0;
+        int panjang_kata = panjang[m], x=0;
+        bool ada[panjang_kata], result;
+       }
+    ??
+    ??
+    ??
+    ??
+    next:
+        x=0;
+    }
+
+    cout<<endl<<"Hasil : "<<endl;
+    for(int i=0; i<banyakkata; i++) {
+        if(hasil_akhir[i==1)
+        {
+            cout<<i1<<". Found!\n";
+        }
+        else cout<<i1<<". Not Found!\n";
+    }
     return 0;
     }
