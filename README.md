@@ -49,8 +49,8 @@ using namespace std;
         hasil[m]=0;
         int panjang_kata = panjang[m], x=0;
         bool ada[panjang_kata], result;
-       }
-    for(int baris = 0 ; baris < 15 ; r++){
+       
+    for(int baris = 0 ; baris < 15 ; baris++){
             for(int i=0; i<=(15-panjang_kata); i++) {
                 for(int j=i; j<=i+(panjang_kata-1); j++) {
                     if(*(*(X+baris)+j) == kata[m][x]) ada[x] = 1;
